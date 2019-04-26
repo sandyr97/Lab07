@@ -3,7 +3,7 @@ Bug 1: found in isEmpty when size>0
 Bug 2: found in addBack()
   This method adds to the front rather than the back as it is supposed to.
 Bug 3: found in removeBack()
-  This method does not remove any integer from the list.
+  This method does not remove any integer from the list and returns false when list is not empty.
 Bug 4: found in removeFront()
-  This method does not remove any integer from the list.
+  This method does not remove any integer from the list and returns false when list is not empty.
 Memory leak from addFront
