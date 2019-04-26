@@ -52,7 +52,7 @@ void Test::runTests()
   {
     std::cout << "Test 3: addFront() Failed. BUG FOUND!" << '\n';
   }
-  std::cout << "myvector contains: ";
+  std::cout << "my Linked list contains: ";
   for (std::vector<int>::iterator it = myvector.begin() ; it != myvector.end(); ++it)
   {
     std::cout << ' ' << *it;
@@ -75,7 +75,7 @@ void Test::runTests()
   {
     std::cout << "Test 5: addBack() Failed. BUG FOUND!" << '\n';
   }
-  std::cout << "myvector contains: ";
+  std::cout << "my Linked list contains: ";
   for (std::vector<int>::iterator it = myvector.begin() ; it != myvector.end(); ++it)
   {
     std::cout << ' ' << *it;
@@ -110,7 +110,7 @@ void Test::runTests()
     std::cout << "Test 7: removeBack() Failed. BUG FOUND!" << '\n';
   }
 
-  std::cout << "myvector contains:";
+  std::cout << "my Linked list contains:";
   for (std::vector<int>::iterator it = myvector.begin() ; it != myvector.end(); ++it)
   {
     std::cout << ' ' << *it;
@@ -149,7 +149,7 @@ void Test::runTests()
 
 
 
-  std::cout << "myvector contains:";
+  std::cout << "my Linked list contains:";
   for (std::vector<int>::iterator it = myvector.begin() ; it != myvector.end(); ++it)
   {
     std::cout << ' ' << *it;

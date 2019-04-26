@@ -1,5 +1,5 @@
 Bug 1: found in isEmpty when size>0
-  this method returns that the list is empty when it is in fact not.
+  this method returns true that the list is empty when it is in fact not.
 Bug 2: found in addBack()
   This method adds to the front rather than the back as it is supposed to.
 Bug 3: found in removeBack()
